@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+height: 5rem;
+width: 1rem;
+}
+
+*::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+background-color: #40A578;
+}
+body
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: -8px -7px 69px 0px #40a57854;
+    -webkit-box-shadow: -5px -6px 30px 0px #40a57854;
+    padding: 0px 20px;
+    color: #40A578;
+}
+header a
+{
+    color: #40A578;
+    padding: 5px;
+    font-size: 20px;
+}
+header span
+{
+    padding: 0px 8px;
+}
+
+.left a
+{
+    border-radius: 18px;
+    margin: 4px;
+    font-weight: 600;
+}
+
+@media (max-width: 1270px ){
+    header span
+    {
+        display: none ;
+    }
+    header .left a
+    {
+        display: none ;
+    }
+    header .center a
+    {
+        display: none ;
+    }
+
+
+}
+
+@media (max-width: 920px ){
+    header span
+    {
+        display: none ;
+    }
+    header a
+    {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+}
+
+.heading
+{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #40A578;
+    font-weight: 600;
+    text-shadow: -3px 2px 8px #40A578;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.menu
+{
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #40A578;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.menu:hover
+{
+    rotate: -5deg ;
+    scale: 1.2;
+}
+@media (min-width: 1270px ){
+    .menu
+    {
+        display: none ;
+    }
+}

@@ -1,0 +1,30 @@
+
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #40A578;
+    flex-flow: row-reverse wrap;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #40a57871 ;
+}
+.left
+{
+    width: 300px;
+}
+
+.right
+{
+    width: 300px;
+}
+.social a
+{
+    margin: 10px;
+    text-align: center;
+    color: #40A578;
+    font-size: 25px;
+}

@@ -1,0 +1,31 @@
+
+
+.comments
+{
+
+}
+
+.comment
+{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 8px 0 0 30px;
+    border-right: 5px solid ;
+    background: #40a57870;
+
+}
+
+.comment-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.comment-body
+{
+    line-height: 1.1;
+    color: #000000a1;
+}
